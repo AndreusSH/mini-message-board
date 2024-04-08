@@ -1,0 +1,21 @@
+<!-- form.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Message Form</title>
+</head>
+<body>
+    <h1>New Message Form</h1>
+    <form method="POST" action="/new">
+        <label for="user">Author's Name:</label>
+        <input type="text" id="user" name="user" required><br><br>
+        
+        <label for="text">Message Text:</label>
+        <textarea id="text" name="text" required></textarea><br><br>
+        
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

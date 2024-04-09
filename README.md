@@ -30,7 +30,7 @@ npm run dev
 
 ## Usage
 
-- Access the application in your web browser at `http://localhost:3000`.
+- Access the application in your web browser at `http://localhost:8080`.
 - You can post messages by filling out the form on the home page.
 - All posted messages will be displayed on the home page.
 
